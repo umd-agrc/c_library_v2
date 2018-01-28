@@ -1,18 +1,14 @@
 <?xml version="1.0"?>
 <mavlink>
-  <version>3</version>
-  <dialect>0</dialect>
+  <include>common.xml</include>
   <enums>
   </enums>
   <messages>
-    <message id="150" name="VISION_LINEAR_VELOCITY_ESTIMATE">
+    <message id="150" name="VISION_VELOCITY_ESTIMATE">
       <field type="uint64_t" name="usec" units="us">Timestamp (microseconds, synced to UNIX time or since system boot)</field>
       <field type="float" name="vx" units="m/s">Global X speed</field>
       <field type="float" name="vy" units="m/s">Global Y speed</field>
       <field type="float" name="vz" units="m/s">Global Z speed</field>
-    </message>
-    <message id="151" name="VISION_ANGULAR_VELOCITY_ESTIMATE">
-      <field type="uint64_t" name="usec" units="us">Timestamp (microseconds, synced to UNIX time or since system boot)</field>
       <field type="float" name="rollspeed" units="m/s">Global roll speed</field>
       <field type="float" name="pitchspeed" units="m/s">Global pitch speed</field>
       <field type="float" name="yawspeed" units="m/s">Global yaw speed</field>
