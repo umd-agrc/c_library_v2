@@ -4047,7 +4047,7 @@
     </message>
 
     <!-- MESSAGE IDs 180 - 229: Space for custom messages in individual projectname_messages.xml files -->
-    <message id="150" name="VISION_VELOCITY_ESTIMATE">
+    <message id="224" name="VISION_VELOCITY_ESTIMATE">
       <field type="uint64_t" name="usec" units="us">Timestamp (microseconds, synced to UNIX time or since system boot)</field>
       <field type="float" name="vx" units="m/s">Global X speed</field>
       <field type="float" name="vy" units="m/s">Global Y speed</field>

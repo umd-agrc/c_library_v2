@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE VISION_VELOCITY_ESTIMATE PACKING
 
-#define MAVLINK_MSG_ID_VISION_VELOCITY_ESTIMATE 150
+#define MAVLINK_MSG_ID_VISION_VELOCITY_ESTIMATE 224
 
 MAVPACKED(
 typedef struct __mavlink_vision_velocity_estimate_t {
@@ -16,17 +16,17 @@ typedef struct __mavlink_vision_velocity_estimate_t {
 
 #define MAVLINK_MSG_ID_VISION_VELOCITY_ESTIMATE_LEN 32
 #define MAVLINK_MSG_ID_VISION_VELOCITY_ESTIMATE_MIN_LEN 32
-#define MAVLINK_MSG_ID_150_LEN 32
-#define MAVLINK_MSG_ID_150_MIN_LEN 32
+#define MAVLINK_MSG_ID_224_LEN 32
+#define MAVLINK_MSG_ID_224_MIN_LEN 32
 
 #define MAVLINK_MSG_ID_VISION_VELOCITY_ESTIMATE_CRC 83
-#define MAVLINK_MSG_ID_150_CRC 83
+#define MAVLINK_MSG_ID_224_CRC 83
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_VISION_VELOCITY_ESTIMATE { \
-    150, \
+    224, \
     "VISION_VELOCITY_ESTIMATE", \
     7, \
     {  { "usec", NULL, MAVLINK_TYPE_UINT64_T, 0, 0, offsetof(mavlink_vision_velocity_estimate_t, usec) }, \
